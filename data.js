@@ -428,7 +428,7 @@ window.TOUR = {
     248
    ],
    "aerea": true,
-   "legenda": "Na região norte de Palmas, a orla da Praia das Arnos, também chamada de Orla 14, é um espaço urbanizado às margens do Lago de Palmas, com calçadão para atividades físicas e eventos. A praia é tradicional pelas barracas que servem tucunaré na brasa.",
+   "legenda": "Na região norte de Palmas, a Praia das Arnos fica às margens do Lago de Palmas, formado pelo represamento do Rio Tocantins. Tem faixa de areia para banho e restaurantes à beira do lago.",
    "pontos": [
     {
      "tipo": "seguir",
@@ -1035,10 +1035,10 @@ window.TOUR = {
     {
      "tipo": "seguir",
      "at": [
-      560,
-      440
+      185,
+      300
      ],
-     "texto": "Rio Novo",
+     "texto": "Seguir: Rio Novo e Cachoeira da Velha",
      "para": "jalapao-rio-novo"
     }
    ]
