@@ -818,31 +818,31 @@ window.TOUR = {
      "texto": "Seguir: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · interior"
     },
     {
-     "tipo": "voltar",
-     "para": "natividade-igreja-matriz-fachada",
-     "at": [
-      1069,
-      241
-     ],
-     "texto": "Voltar: Paróquia Nossa Senhora da Natividade · fachada"
-    },
-    {
      "tipo": "seguir",
      "at": [
-      19,
-      238
+      1099,
+      218
      ],
      "texto": "Seguir: Centro Bom Jesus de Nazaré (Dona Romana)",
      "para": "natividade-dona-romana-1"
     },
     {
-     "tipo": "seguir",
+     "tipo": "voltar",
      "at": [
       152,
       234
      ],
-     "texto": "Seguir: Paróquia Nossa Senhora da Natividade",
+     "texto": "Voltar: Paróquia Nossa Senhora da Natividade",
      "para": "natividade-igreja-matriz-fachada"
+    },
+    {
+     "tipo": "voltar",
+     "at": [
+      1,
+      244
+     ],
+     "texto": "Voltar: Museu Histórico de Natividade",
+     "para": "natividade-museu-praca"
     }
    ]
   },
