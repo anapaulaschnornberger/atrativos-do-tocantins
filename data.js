@@ -13,6 +13,8 @@ window.TOUR = {
     215
    ],
    "fov": 72,
+   "legenda": "Bem-vindo ao Tocantins em 360°!\n\nO passeio começa no saguão do Palácio Araguaia, em Palmas, diante do mapa do estado. Toque em um dos pins amarelos para visitar Palmas, Monte do Carmo, Natividade ou o Jalapão.\n\nComo navegar:\n• Arraste a imagem para olhar em volta e use a rolagem ou o gesto de pinça para aproximar.\n• Pin verde: segue para o próximo ponto. Pin laranja: volta ao anterior.\n• Ícone de drone: leva a uma vista aérea.\n• Ícone de mapa azul, ou o botão de mapa no alto da tela: volta a este mapa.\n• Botão \"Sobre este lugar\": conta a história de cada atrativo.\n• Menu ☰: lista todas as cenas para ir direto a qualquer uma.",
+   "botao": "Boas-vindas e como navegar",
    "pontos": [
     {
      "tipo": "dest",
@@ -67,36 +69,36 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-av-jk-4",
      "at": [
-      280,
-      298
+      542,
+      254
      ],
-     "texto": "Seguir: Avenida JK - Vista aérea",
+     "texto": "Seguir: Avenida JK - vista aérea",
      "icone": "drone"
     },
     {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      552,
-      208
+      539,
+      218
      ],
      "texto": "Voltar ao mapa"
     },
     {
      "tipo": "seguir",
      "at": [
-      499,
-      267
+      764,
+      251
      ],
-     "texto": "Seguir: Espaço Cultural",
+     "texto": "Seguir: Espaço Cultural José Gomes Sobrinho",
      "para": "palmas-espaco-cultural",
      "icone": "drone"
     },
     {
      "tipo": "seguir",
      "at": [
-      1039,
-      279
+      1050,
+      253
      ],
      "texto": "Seguir: Praia da Graciosa",
      "para": "palmas-praia-da-graciosa-1"
@@ -104,8 +106,8 @@ window.TOUR = {
     {
      "tipo": "seguir",
      "at": [
-      1087,
-      278
+      73,
+      262
      ],
      "texto": "Seguir: Praia das Arnos",
      "para": "palmas-praia-das-arnos-1",
@@ -115,7 +117,7 @@ window.TOUR = {
   },
   {
    "id": "palmas-av-jk-4",
-   "nome": "Avenida JK - Vista aérea",
+   "nome": "Avenida JK - vista aérea",
    "grupo": "Palmas",
    "vista": [
     822,
@@ -128,8 +130,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-av-jk-2",
      "at": [
-      774,
-      377
+      780,
+      335
      ],
      "texto": "Seguir: Avenida JK - área comercial"
     },
@@ -137,8 +139,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-palacio-araguaia",
      "at": [
-      817,
-      283
+      804,
+      273
      ],
      "texto": "Voltar: Palácio Araguaia Governador José Wilson Siqueira Campos",
      "icone": "drone"
@@ -160,17 +162,17 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-av-jk-4",
      "at": [
-      234,
-      305
+      218,
+      206
      ],
-     "texto": "Voltar: Avenida JK - Vista aérea",
+     "texto": "Voltar: Avenida JK - vista aérea",
      "icone": "drone"
     }
    ]
   },
   {
    "id": "palmas-espaco-cultural",
-   "nome": "Espaço Cultural",
+   "nome": "Espaço Cultural José Gomes Sobrinho",
    "grupo": "Palmas",
    "vista": [
     965,
@@ -183,8 +185,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-parque-cesamar-1",
      "at": [
-      826,
-      266
+      877,
+      265
      ],
      "texto": "Seguir: Parque Cesamar",
      "icone": "drone"
@@ -192,8 +194,8 @@ window.TOUR = {
     {
      "tipo": "voltar",
      "at": [
-      550,
-      330
+      539,
+      272
      ],
      "texto": "Voltar: Palácio Araguaia",
      "para": "palmas-palacio-araguaia",
@@ -216,27 +218,27 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-parque-cesamar-2",
      "at": [
-      251,
-      335
+      246,
+      318
      ],
-     "texto": "Seguir: Parque Cesamar - Lago",
+     "texto": "Seguir: Parque Cesamar - lago",
      "icone": "drone"
     },
     {
      "tipo": "voltar",
      "para": "palmas-espaco-cultural",
      "at": [
-      813,
-      284
+      860,
+      265
      ],
-     "texto": "Voltar: Espaço Cultural",
+     "texto": "Voltar: Espaço Cultural José Gomes Sobrinho",
      "icone": "drone"
     }
    ]
   },
   {
    "id": "palmas-parque-cesamar-2",
-   "nome": "Parque Cesamar - Lago",
+   "nome": "Parque Cesamar - lago",
    "grupo": "Palmas",
    "vista": [
     350,
@@ -248,10 +250,10 @@ window.TOUR = {
     {
      "tipo": "voltar",
      "at": [
-      223,
-      270
+      228,
+      242
      ],
-     "texto": "Parque Cesamar",
+     "texto": "Voltar: Parque Cesamar",
      "para": "palmas-parque-cesamar-1",
      "icone": "drone"
     }
@@ -272,8 +274,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-praia-da-graciosa-2",
      "at": [
-      181,
-      254
+      233,
+      203
      ],
      "texto": "Seguir: Praia da Graciosa - Vista 2",
      "icone": "drone"
@@ -305,8 +307,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-praia-da-graciosa-3",
      "at": [
-      148,
-      329
+      1038,
+      318
      ],
      "texto": "Seguir: Praia da Graciosa - Vista 3",
      "icone": "drone"
@@ -315,8 +317,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-da-graciosa-1",
      "at": [
-      643,
-      306
+      402,
+      318
      ],
      "texto": "Voltar: Praia da Graciosa - Vista 1"
     }
@@ -347,8 +349,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-da-graciosa-2",
      "at": [
-      460,
-      345
+      777,
+      340
      ],
      "texto": "Voltar: Praia da Graciosa - Vista 2",
      "icone": "drone"
@@ -370,8 +372,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-praia-da-graciosa-5",
      "at": [
-      323,
-      288
+      295,
+      275
      ],
      "texto": "Seguir: Praia da Graciosa - Vista 5"
     },
@@ -402,8 +404,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-da-graciosa-4",
      "at": [
-      448,
-      326
+      863,
+      170
      ],
      "texto": "Voltar: Praia da Graciosa - Vista 4",
      "icone": "drone"
@@ -443,10 +445,10 @@ window.TOUR = {
     {
      "tipo": "voltar",
      "at": [
-      344,
-      258
+      370,
+      250
      ],
-     "texto": "Palácio Araguaia",
+     "texto": "Voltar: Palácio Araguaia",
      "para": "palmas-palacio-araguaia",
      "icone": "drone"
     }
@@ -467,8 +469,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-praia-das-arnos-3",
      "at": [
-      1019,
-      311
+      1053,
+      291
      ],
      "texto": "Seguir: Praia das Arnos - Vista 3"
     },
@@ -476,8 +478,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-das-arnos-1",
      "at": [
-      413,
-      287
+      428,
+      273
      ],
      "texto": "Voltar: Praia das Arnos - Vista 1",
      "icone": "drone"
@@ -499,8 +501,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "palmas-praia-das-arnos-5",
      "at": [
-      189,
-      285
+      267,
+      262
      ],
      "texto": "Seguir: Praia das Arnos - Vista 4"
     },
@@ -508,8 +510,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-das-arnos-2",
      "at": [
-      479,
-      110
+      429,
+      201
      ],
      "texto": "Voltar: Praia das Arnos - Vista 2",
      "icone": "drone"
@@ -531,8 +533,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "palmas-praia-das-arnos-3",
      "at": [
-      818,
-      278
+      812,
+      259
      ],
      "texto": "Voltar: Praia das Arnos - Vista 3"
     },
@@ -562,17 +564,17 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "igreja-nossa-senhora-do-rosario-monte-do-carmo-interior-1",
      "at": [
-      820,
-      254
+      801,
+      250
      ],
-     "texto": "Seguir: Igreja N. S. do Rosário · Vista Interior 1"
+     "texto": "Seguir: Igreja de Nossa Senhora do Rosário · interior 1"
     },
     {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      98,
-      286
+      269,
+      288
      ],
      "texto": "Voltar ao mapa"
     }
@@ -580,7 +582,7 @@ window.TOUR = {
   },
   {
    "id": "igreja-nossa-senhora-do-rosario-monte-do-carmo-interior-1",
-   "nome": "Igreja N. S. do Rosário · Vista Interior 1",
+   "nome": "Igreja de Nossa Senhora do Rosário · interior 1",
    "grupo": "Monte do Carmo",
    "vista": [
     841,
@@ -596,13 +598,13 @@ window.TOUR = {
       306,
       344
      ],
-     "texto": "Seguir: Igreja N. S. do Rosário · Vista Interior 2"
+     "texto": "Seguir: Igreja de Nossa Senhora do Rosário · interior 2"
     }
    ]
   },
   {
    "id": "igreja-nossa-senhora-do-rosario-monte-do-carmo-interior-2",
-   "nome": "Igreja N. S. do Rosário · Vista Interior 2",
+   "nome": "Igreja de Nossa Senhora do Rosário · interior 2",
    "grupo": "Monte do Carmo",
    "vista": [
     764,
@@ -626,54 +628,63 @@ window.TOUR = {
       213,
       288
      ],
-     "texto": "Fachada - Igreja N. S. do Rosário",
+     "texto": "Voltar: Igreja de Nossa Senhora do Rosário · fachada",
      "para": "fachada"
     }
    ]
   },
   {
    "id": "natividade-igreja-matriz-fachada",
-   "nome": "Igreja Matriz · fachada",
+   "nome": "Paróquia Nossa Senhora da Natividade · fachada",
    "grupo": "Natividade",
    "vista": [
     284,
     111
    ],
    "aerea": false,
-   "legenda": "Natividade, a cidade mais antiga do Tocantins, nasceu da exploração do ouro em 1734. O centro histórico, com cerca de 250 imóveis, foi tombado pelo Iphan em 1987.\n\nA Igreja Matriz, erguida em 1759, guarda a imagem de Nossa Senhora da Natividade, levada para a região em 1735. O Tocantins é o único estado brasileiro que tem Nossa Senhora da Natividade como padroeira, celebrada em 8 de setembro.",
+   "legenda": "Natividade, a cidade mais antiga do Tocantins, nasceu da exploração do ouro em 1734. O centro histórico, com cerca de 250 imóveis, foi tombado pelo Iphan em 1987.\n\nA igreja da Paróquia Nossa Senhora da Natividade, a Matriz da cidade, foi erguida em 1759 e foi tombada pelo Estado em 1980. Ela guarda a imagem de Nossa Senhora da Natividade, levada para a região em 1735. O Tocantins é o único estado brasileiro que tem Nossa Senhora da Natividade como padroeira, celebrada em 8 de setembro.",
    "pontos": [
     {
      "tipo": "seguir",
      "para": "natividade-igreja-matriz-interior",
      "at": [
-      279,
-      274
+      289,
+      245
      ],
-     "texto": "Seguir: Igreja Matriz · interior"
+     "texto": "Seguir: Paróquia Nossa Senhora da Natividade · interior"
     },
     {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      1029,
-      259
+      30,
+      244
      ],
      "texto": "Voltar ao mapa"
     },
     {
      "tipo": "seguir",
      "at": [
-      111,
-      237
+      139,
+      199
      ],
-     "texto": "Museu de Natividade",
+     "texto": "Seguir: Museu Histórico de Natividade",
      "para": "natividade-museu-praca"
+    },
+    {
+     "tipo": "seguir",
+     "at": [
+      1038,
+      232
+     ],
+     "texto": "Seguir: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos",
+     "para": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-fachada"
     }
    ]
   },
   {
    "id": "natividade-igreja-matriz-interior",
-   "nome": "Igreja Matriz · interior",
+   "nome": "Paróquia Nossa Senhora da Natividade · interior",
    "grupo": "Natividade",
    "vista": [
     747,
@@ -686,10 +697,10 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "natividade-igreja-matriz-fachada",
      "at": [
-      192,
-      266
+      210,
+      257
      ],
-     "texto": "Voltar: Igreja Matriz · fachada"
+     "texto": "Voltar: Paróquia Nossa Senhora da Natividade · fachada"
     }
    ]
   },
@@ -708,34 +719,34 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "natividade-museu-entrada",
      "at": [
-      933,
-      211
+      921,
+      254
      ],
-     "texto": "Seguir: Museu · entrada"
+     "texto": "Seguir: Museu Histórico de Natividade · entrada"
     },
     {
      "tipo": "voltar",
      "para": "natividade-igreja-matriz-fachada",
      "at": [
-      686,
-      212
+      768,
+      203
      ],
-     "texto": "Voltar: Igreja Matriz · fachada"
+     "texto": "Voltar: Paróquia Nossa Senhora da Natividade · fachada"
     },
     {
      "tipo": "seguir",
      "at": [
-      857,
-      205
+      871,
+      211
      ],
-     "texto": "Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos",
+     "texto": "Seguir: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos",
      "para": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-fachada"
     }
    ]
   },
   {
    "id": "natividade-museu-entrada",
-   "nome": "Museu · entrada",
+   "nome": "Museu Histórico de Natividade · entrada",
    "grupo": "Natividade",
    "vista": [
     584,
@@ -751,7 +762,7 @@ window.TOUR = {
       1027,
       279
      ],
-     "texto": "Seguir: Museu · sala de exposições"
+     "texto": "Seguir: Museu Histórico de Natividade · sala de exposições"
     },
     {
      "tipo": "voltar",
@@ -766,7 +777,7 @@ window.TOUR = {
   },
   {
    "id": "natividade-museu-sala-1",
-   "nome": "Museu · sala de exposições",
+   "nome": "Museu Histórico de Natividade · sala de exposições",
    "grupo": "Natividade",
    "vista": [
     697,
@@ -779,16 +790,16 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "natividade-museu-entrada",
      "at": [
-      116,
-      300
+      111,
+      276
      ],
-     "texto": "Voltar: Museu · entrada"
+     "texto": "Voltar: Museu Histórico de Natividade · entrada"
     }
    ]
   },
   {
    "id": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-fachada",
-   "nome": "Ruínas do Rosário dos Pretos · fachada",
+   "nome": "Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · fachada",
    "grupo": "Natividade",
    "vista": [
     551,
@@ -801,34 +812,43 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-interior",
      "at": [
-      547,
-      259
+      537,
+      255
      ],
-     "texto": "Seguir: Ruínas do Rosário dos Pretos · interior"
+     "texto": "Seguir: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · interior"
     },
     {
      "tipo": "voltar",
-     "para": "natividade-museu-praca",
+     "para": "natividade-igreja-matriz-fachada",
      "at": [
-      1071,
-      262
+      1069,
+      241
      ],
-     "texto": "Voltar: Museu Histórico de Natividade · Praça Leopoldo de Bulhões"
+     "texto": "Voltar: Paróquia Nossa Senhora da Natividade · fachada"
     },
     {
      "tipo": "seguir",
      "at": [
-      28,
-      250
+      19,
+      238
      ],
-     "texto": "Dona Romana",
+     "texto": "Seguir: Centro Bom Jesus de Nazaré (Dona Romana)",
      "para": "natividade-dona-romana-1"
+    },
+    {
+     "tipo": "seguir",
+     "at": [
+      152,
+      234
+     ],
+     "texto": "Seguir: Paróquia Nossa Senhora da Natividade",
+     "para": "natividade-igreja-matriz-fachada"
     }
    ]
   },
   {
    "id": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-interior",
-   "nome": "Ruínas do Rosário dos Pretos · interior",
+   "nome": "Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · interior",
    "grupo": "Natividade",
    "vista": [
     142,
@@ -844,13 +864,13 @@ window.TOUR = {
       715,
       246
      ],
-     "texto": "Voltar: Ruínas do Rosário dos Pretos · fachada"
+     "texto": "Voltar: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · fachada"
     }
    ]
   },
   {
    "id": "natividade-dona-romana-1",
-   "nome": "Dona Romana - Vista 1",
+   "nome": "Centro Bom Jesus de Nazaré (Dona Romana) · Vista 1",
    "grupo": "Natividade",
    "vista": [
     505,
@@ -866,22 +886,22 @@ window.TOUR = {
       710,
       280
      ],
-     "texto": "Seguir: Dona Romana - Vista 2"
+     "texto": "Seguir: Centro Bom Jesus de Nazaré (Dona Romana) · Vista 2"
     },
     {
      "tipo": "voltar",
      "para": "natividade-ruinas-igreja-nossa-senhora-do-rosario-dos-pretos-fachada",
      "at": [
-      998,
-      259
+      994,
+      222
      ],
-     "texto": "Voltar: Ruínas do Rosário dos Pretos · fachada"
+     "texto": "Voltar: Ruínas da Igreja de Nossa Senhora do Rosário dos Pretos · fachada"
     }
    ]
   },
   {
    "id": "natividade-dona-romana-2",
-   "nome": "Dona Romana - Vista 2",
+   "nome": "Centro Bom Jesus de Nazaré (Dona Romana) · Vista 2",
    "grupo": "Natividade",
    "vista": [
     412,
@@ -897,14 +917,14 @@ window.TOUR = {
       1057,
       333
      ],
-     "texto": "Voltar: Dona Romana - Vista 1"
+     "texto": "Voltar: Centro Bom Jesus de Nazaré (Dona Romana) · Vista 1"
     },
     {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      424,
-      312
+      409,
+      271
      ],
      "texto": "Voltar ao mapa"
     }
@@ -925,8 +945,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-cachoeira-do-formiga-2",
      "at": [
-      1005,
-      275
+      269,
+      250
      ],
      "texto": "Seguir: Cachoeira do Formiga - Vista 2"
     },
@@ -934,8 +954,8 @@ window.TOUR = {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      833,
-      282
+      885,
+      273
      ],
      "texto": "Voltar ao mapa"
     }
@@ -956,8 +976,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-fervedouro",
      "at": [
-      47,
-      294
+      48,
+      275
      ],
      "texto": "Seguir: Fervedouro do Ceiça"
     },
@@ -965,8 +985,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "jalapao-cachoeira-do-formiga-1",
      "at": [
-      1049,
-      278
+      1000,
+      237
      ],
      "texto": "Voltar: Cachoeira do Formiga - Vista 1"
     }
@@ -987,17 +1007,17 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-dunas-lagoa-do-jacare",
      "at": [
-      839,
-      169
+      832,
+      223
      ],
-     "texto": "Seguir: Dunas · Lagoa do Jacaré"
+     "texto": "Seguir: Lagoa do Jacaré"
     },
     {
      "tipo": "voltar",
      "para": "jalapao-cachoeira-do-formiga-2",
      "at": [
-      839,
-      230
+      831,
+      257
      ],
      "texto": "Voltar: Cachoeira do Formiga - Vista 2"
     }
@@ -1005,7 +1025,7 @@ window.TOUR = {
   },
   {
    "id": "jalapao-dunas-lagoa-do-jacare",
-   "nome": "Dunas · Lagoa do Jacaré",
+   "nome": "Lagoa do Jacaré",
    "grupo": "Jalapão",
    "vista": [
     138,
@@ -1018,34 +1038,34 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-dunas",
      "at": [
-      983,
-      235
+      985,
+      258
      ],
-     "texto": "Seguir: Dunas"
+     "texto": "Seguir: Dunas do Jalapão"
     },
     {
      "tipo": "voltar",
      "para": "jalapao-fervedouro",
      "at": [
-      81,
-      213
+      607,
+      228
      ],
      "texto": "Voltar: Fervedouro do Ceiça"
     },
     {
      "tipo": "seguir",
      "at": [
-      185,
-      300
+      543,
+      231
      ],
-     "texto": "Seguir: Rio Novo e Cachoeira da Velha",
+     "texto": "Seguir: Rio Novo",
      "para": "jalapao-rio-novo"
     }
    ]
   },
   {
    "id": "jalapao-dunas",
-   "nome": "Dunas",
+   "nome": "Dunas do Jalapão",
    "grupo": "Jalapão",
    "vista": [
     407,
@@ -1058,10 +1078,10 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "jalapao-dunas-lagoa-do-jacare",
      "at": [
-      134,
-      268
+      427,
+      244
      ],
-     "texto": "Voltar: Dunas · Lagoa do Jacaré"
+     "texto": "Voltar: Lagoa do Jacaré"
     }
    ]
   },
@@ -1080,8 +1100,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-cachoeira-da-velha-1",
      "at": [
-      235,
-      272
+      808,
+      259
      ],
      "texto": "Seguir: Cachoeira da Velha - Vista 1"
     },
@@ -1089,10 +1109,10 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "jalapao-dunas-lagoa-do-jacare",
      "at": [
-      614,
-      251
+      554,
+      218
      ],
-     "texto": "Voltar: Dunas · Lagoa do Jacaré"
+     "texto": "Voltar: Lagoa do Jacaré"
     }
    ]
   },
@@ -1111,8 +1131,8 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-cachoeira-da-velha-2",
      "at": [
-      1060,
-      269
+      14,
+      262
      ],
      "texto": "Seguir: Cachoeira da Velha - Vista 2"
     },
@@ -1120,8 +1140,8 @@ window.TOUR = {
      "tipo": "voltar",
      "para": "jalapao-rio-novo",
      "at": [
-      494,
-      285
+      654,
+      251
      ],
      "texto": "Voltar: Rio Novo"
     }
@@ -1142,17 +1162,17 @@ window.TOUR = {
      "tipo": "seguir",
      "para": "jalapao-por-do-sol",
      "at": [
-      765,
-      112
+      757,
+      239
      ],
-     "texto": "Seguir: Pôr do sol"
+     "texto": "Seguir: Pôr do sol no Jalapão"
     },
     {
      "tipo": "voltar",
      "para": "jalapao-cachoeira-da-velha-1",
      "at": [
-      842,
-      325
+      760,
+      298
      ],
      "texto": "Voltar: Cachoeira da Velha - Vista 1"
     }
@@ -1160,21 +1180,21 @@ window.TOUR = {
   },
   {
    "id": "jalapao-por-do-sol",
-   "nome": "Pôr do sol",
+   "nome": "Pôr do sol no Jalapão",
    "grupo": "Jalapão",
    "vista": [
     930,
     153
    ],
    "aerea": false,
-   "legenda": "O Parque Estadual do Jalapão foi criado em 12 de janeiro de 2001 e protege 158.885 hectares de Cerrado, com dunas, cachoeiras, veredas e fauna ameaçada. É administrado pelo Naturatins e é o maior parque estadual do Tocantins.",
+   "legenda": "As bolinhas brancas no campo são o chuveirinho, uma das sempre-vivas: nome popular dado a plantas da família Eriocaulaceae, que vivem em áreas abertas e ensolaradas do Cerrado. O capim-dourado, usado no artesanato do Jalapão, é da mesma família e cresce nos campos úmidos da região.\n\nO Jalapão é a maior área contínua de Cerrado protegido do Brasil, e a paisagem é um mosaico: campo limpo, só com capim; campo sujo, com arbustos espalhados; cerrado típico, com árvores baixas e retorcidas; veredas, com buritis nas áreas encharcadas; e matas de galeria ao longo dos rios. O Parque Estadual do Jalapão, criado em 2001, protege 158.885 hectares desse Cerrado.",
    "pontos": [
     {
      "tipo": "voltar",
      "para": "jalapao-cachoeira-da-velha-2",
      "at": [
-      137,
-      263
+      304,
+      241
      ],
      "texto": "Voltar: Cachoeira da Velha - Vista 2"
     },
@@ -1182,8 +1202,8 @@ window.TOUR = {
      "tipo": "mapa",
      "para": "menu",
      "at": [
-      489,
-      392
+      389,
+      259
      ],
      "texto": "Voltar ao mapa"
     }

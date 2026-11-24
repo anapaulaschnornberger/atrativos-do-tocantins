@@ -212,7 +212,7 @@ button{font:inherit;color:inherit;cursor:pointer}
     var source = Marzipano.ImageUrlSource.fromString('tiles/' + c.id + '/{z}/{f}/{y}/{x}.jpg', { cubeMapPreviewUrl: 'tiles/' + c.id + '/preview.jpg' });
     var geometry = new Marzipano.CubeGeometry(LEVELS);
     var v = toRad(c.vista || [550,275]);
-    var view = new Marzipano.RectilinearView({ yaw:v.yaw, pitch:Math.max(-0.3,Math.min(v.pitch,0.15)), fov:(c.fov||100)*Math.PI/180 }, limiter);
+    var view = new Marzipano.RectilinearView({ yaw:v.yaw, pitch:(c.fov ? v.pitch : Math.max(-0.3,Math.min(v.pitch,0.15))), fov:(c.fov||100)*Math.PI/180 }, limiter);
     var scene = viewer.createScene({ source:source, geometry:geometry, view:view, pinFirstLevel:true });
     c._scene = scene; c._view = view; c._els = [];
     c.pontos.forEach(function(p){ addHotspot(c, p); });
@@ -252,10 +252,11 @@ button{font:inherit;color:inherit;cursor:pointer}
   function showCap(c){
     var b = $('sobre');
     b.classList.remove('pulse2');
+    b.lastChild.textContent = c.botao || 'Sobre este lugar';
     if (c.legenda){ b.classList.add('on'); void b.offsetWidth; b.classList.add('pulse2'); }
     else b.classList.remove('on');
   }
-  $('sobre').onclick = function(){ if (current && current.legenda) openModal({ titulo: current.nome, texto: current.legenda }); };
+  $('sobre').onclick = function(){ if (current && current.legenda) openModal({ titulo: current.id === 'menu' ? 'Boas-vindas' : current.nome, texto: current.legenda }); };
 
   // Lista de ambientes
   var list = $('list'), lastG = null;
